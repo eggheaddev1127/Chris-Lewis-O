@@ -812,8 +812,7 @@ document.addEventListener("DOMContentLoaded", function() {
             tl.to(skillItems, {
                 scale: 0,
                 opacity: 0,
-                duration: 0.3,
-                stagger: 0.05,
+                duration: 0.2,
                 ease: 'power2.in',
                 onComplete: () => {
                     skillItems.forEach(item => {
@@ -827,8 +826,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     gsap.to(skillItems, {
                         scale: 1,
                         opacity: 1,
-                        duration: 0.3,
-                        stagger: 0.05,
+                        duration: 0.2,
                     ease: 'power2.out',
                     onComplete: ScrollTrigger.refresh
                     });
